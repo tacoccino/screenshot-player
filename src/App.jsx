@@ -87,7 +87,7 @@ function Slider({ label, value, min = 0, max = 100, step = 1, unit = "", onChang
 }
 
 // ─── Main App ──────────────────────────────────────────────────────────────
-export default function FrameVault() {
+export default function ScreenshotPlayer() {
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
   const fileInputRef = useRef(null);
@@ -379,7 +379,7 @@ export default function FrameVault() {
       {/* Header */}
       <div style={{ width: "100%", maxWidth: 1100, padding: "18px 24px 0", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
-          <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 26, color: accentGold, letterSpacing: "0.05em" }}>FRAMEVAULT</span>
+          <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 26, color: accentGold, letterSpacing: "0.05em" }}>Screenshot Player</span>
           <span style={{ fontSize: 9, color: "#444", letterSpacing: "0.2em" }}>PRECISION CAPTURE</span>
         </div>
         <div style={{ display: "flex", gap: 8 }}>
@@ -676,7 +676,7 @@ export default function FrameVault() {
 
       {/* Footer */}
       <div style={{ width: "100%", maxWidth: 1100, padding: "16px 24px 0", display: "flex", justifyContent: "space-between", fontSize: 9, color: "#2a2a2a", letterSpacing: "0.1em", borderTop: "1px solid #111", marginTop: 20 }}>
-        <span>FRAMEVAULT · PRECISION CAPTURE</span>
+        <span>Screenshot Player · PRECISION CAPTURE</span>
         <span>FRAME {Math.floor(currentTime * fps)} · {fps}fps · {colorSpace}</span>
       </div>
     </div>

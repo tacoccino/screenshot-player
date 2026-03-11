@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ──────────────────────────────────────────────
-#  FrameVault — Launch Script (macOS / Linux)
+#  Screenshot Player — Launch Script (macOS / Linux)
 # ──────────────────────────────────────────────
 
 set -e
@@ -11,15 +11,7 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 RESET='\033[0m'
 
-echo ""
-echo -e "${YELLOW}  ███████╗██████╗  █████╗ ███╗   ███╗███████╗${RESET}"
-echo -e "${YELLOW}  ██╔════╝██╔══██╗██╔══██╗████╗ ████║██╔════╝${RESET}"
-echo -e "${YELLOW}  █████╗  ██████╔╝███████║██╔████╔██║█████╗  ${RESET}"
-echo -e "${YELLOW}  ██╔══╝  ██╔══██╗██╔══██║██║╚██╔╝██║██╔══╝  ${RESET}"
-echo -e "${YELLOW}  ██║     ██║  ██║██║  ██║██║ ╚═╝ ██║███████╗${RESET}"
-echo -e "${YELLOW}  ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝${RESET}"
-echo -e "${CYAN}           V A U L T  ·  Precision Capture${RESET}"
-echo ""
+echo "Screenshot Player"
 
 # ── Check for Node.js ──────────────────────────────────────────────────────
 if ! command -v node &> /dev/null; then
@@ -49,7 +41,7 @@ fi
 
 # ── Launch ─────────────────────────────────────────────────────────────────
 echo ""
-echo -e "${CYAN}  → Starting FrameVault dev server...${RESET}"
+echo -e "${CYAN}  → Starting Screenshot Player dev server...${RESET}"
 echo -e "    Open ${YELLOW}http://localhost:5173${RESET} in your browser."
 echo -e "    Press ${RED}Ctrl+C${RESET} to stop."
 echo ""

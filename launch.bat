@@ -1,19 +1,11 @@
 @echo off
 :: ──────────────────────────────────────────────
-::  FrameVault — Launch Script (Windows)
+::  Screenshot Player — Launch Script (Windows)
 :: ──────────────────────────────────────────────
-title FrameVault - Precision Capture
+title Screenshot Player - Precision Capture
 color 0E
 
-echo.
-echo   ███████╗██████╗  █████╗ ███╗   ███╗███████╗
-echo   ██╔════╝██╔══██╗██╔══██╗████╗ ████║██╔════╝
-echo   █████╗  ██████╔╝███████║██╔████╔██║█████╗
-echo   ██╔══╝  ██╔══██╗██╔══██║██║╚██╔╝██║██╔══╝
-echo   ██║     ██║  ██║██║  ██║██║  ╚═╝ ██║███████╗
-echo   ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
-echo            V A U L T  .  Precision Capture
-echo.
+echo Screenshot Player
 
 :: ── Check for Node.js ──────────────────────────────────────────────────────
 where node >nul 2>&1
@@ -53,7 +45,7 @@ if not exist "node_modules\" (
 
 :: ── Launch ─────────────────────────────────────────────────────────────────
 echo.
-echo   [LAUNCH] Starting FrameVault dev server...
+echo   [LAUNCH] Starting Screenshot Player dev server...
 echo   Open http://localhost:5173 in your browser.
 echo   Press Ctrl+C to stop the server.
 echo.

@@ -1,8 +1,8 @@
-# 🎞️ FrameVault — Precision Video Capture
+# 🎞️ Screenshot Player — Precision Video Capture
 
 > A cross-platform video player focused on high-quality, frame-accurate screenshot capture with post-processing and full hotkey customization.
 
-![FrameVault](https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react)
+![Screenshot Player](https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5+-646CFF?style=flat-square&logo=vite)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)
@@ -32,8 +32,8 @@
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/framevault.git
-cd framevault
+git clone https://github.com/yourusername/Screenshot Player.git
+cd Screenshot Player
 ```
 
 **macOS / Linux:**
@@ -55,9 +55,9 @@ The scripts will automatically install dependencies on first run and open the ap
 ## 🗂️ Project Structure
 
 ```
-framevault/
+Screenshot Player/
 ├── src/
-│   └── App.jsx          # Main FrameVault component
+│   └── App.jsx          # Main Screenshot Player component
 ├── public/
 ├── launch.sh            # macOS/Linux launch script
 ├── launch.bat           # Windows launch script
@@ -120,7 +120,7 @@ All effects apply live to the video preview and are baked into saved screenshots
 
 ## 🖥️ Supported Formats
 
-FrameVault supports any video format your browser can decode natively:
+Screenshot Player supports any video format your browser can decode natively:
 
 - MP4 (H.264, H.265)
 - WebM (VP8, VP9, AV1)
